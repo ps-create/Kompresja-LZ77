@@ -4,7 +4,6 @@
 #include <deque>
 #include <fstream>
 #include <cmath>
-
 using namespace std;
 
 int binary_to_int(deque<bool> liczba) {
@@ -36,7 +35,7 @@ Kompresja::Kompresja(vector<int> dane, int p_length, int c_length, int s_length)
 	this->p_length = p_length;
 	this->c_length = c_length;
 	this->s_length = s_length;
-	rozmiar_bufora_slownikowego = pow(2, p_length - s_length); // p_length - s_length zachowa rozmiar w bitach, dostosowuj¹c siê do rozmiaru symbolu
+	rozmiar_bufora_slownikowego = pow(2, p_length - s_length); // p_length - s_length zachowa rozmiar w bitach, dostosowujÂ¹c siÃª do rozmiaru symbolu
 	rozmiar_bufora_wejsciowego = pow(2, c_length - s_length);
 
 	int first_symbol = text_raw.front();
@@ -180,7 +179,7 @@ Dekompresja::Dekompresja(vector<bool> dane, int p_length, int c_length, int s_le
 	this->p_length = p_length;
 	this->c_length = c_length;
 	this->s_length = s_length;
-	rozmiar_bufora_slownikowego = pow(2, p_length - s_length); // p_length - s_length zachowa rozmiar w bitach, dostosowuj¹c siê do rozmiaru symbolu
+	rozmiar_bufora_slownikowego = pow(2, p_length - s_length); // p_length - s_length zachowa rozmiar w bitach, dostosowujÂ¹c siÃª do rozmiaru symbolu
 	rozmiar_bufora_wejsciowego = pow(2, c_length - s_length);
 
 	//czytanie pierwszego symbolu
