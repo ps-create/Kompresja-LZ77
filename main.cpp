@@ -251,7 +251,6 @@ vector<bool> naglowek() {
         temp.clear();
     }
 
-
     return output;
 }
 void wypisz_plik(vector<bool> naglowek, vector<bool> dane) {
