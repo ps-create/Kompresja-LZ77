@@ -33,7 +33,7 @@ public:
 
 	Kompresja(vector<int> dane, int p_length, int c_length, int s_length);//konwertuj tekst, okresl rozmiar i wypelnij bufory
 	bool check_if_input_empty(); //konczy kompresje
-	void read_iteration(); // czytaj text, szukaj w buforze, zapisz trójkê do tablicy, przesuñ bufory
+	void read_iteration(); // czytaj text, szukaj w buforze, zapisz trÃ³jkÃª do tablicy, przesuÃ± bufory
 	void utworz_output();
 };
 
@@ -70,7 +70,6 @@ public:
 	bool check_if_input_empty();
 	void read_iteration();
 };
-
 
 
 vector<int> LZ77_dekompresuj(int opcja, vector<bool> dane);
