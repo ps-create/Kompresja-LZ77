@@ -1,4 +1,5 @@
 # Projekt-Grafika-GKIM-2020-Zespol11
+całość programu w folderze zip umieszczonym w tym repozytorium!
 
 # Treść zadania:
 Należy utworzyć specyfikację rastrowego pliku graficznego rejestrującego obraz kolorowy (z wykorzystaniem 16 narzuconych oraz 16 dedykowanych barw) i w 16 stopniowej skali szarości we wszystkich przypadkach opierającego się na kompresji LZ77 ​ (Lempel-Ziv 77) ​ . Alfabet wejściowy to wartość 4 bitowa. 
@@ -18,4 +19,3 @@ Dopóki w tekście są jakieś trójki, czytamy je, znajdujemy pierwszy wyraz da
 
 # Projekt był projektem grupowym!
 Created by: Paweł/Mikołaj/Marek/Kamil
-# W całość programu w folderze zip umieszczonym w tym repozytorium!
