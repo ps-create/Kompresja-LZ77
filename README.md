@@ -17,3 +17,4 @@ Stopień kompresji jest zależny od wielkości buforów, głównie słownikowego
 Dopóki w tekście są jakieś trójki, czytamy je, znajdujemy pierwszy wyraz danego ciągu w buforze słownikowym a następnie czytamy C kolejnych znaków. Przeczytany ciąg uzupełniamy o symbol S i zapisujemy do bufora wejściowego oraz na wyjście. Następnie przesuwamy okno o C+1, czyli dopóki bufor wejściowy nie będzie pusty. To powoduje automatyczne odtworzenie słownika.
 
 # Projekt był projektem grupowym!
+Created by: Paweł/Mikołaj/Marek/Kamil
