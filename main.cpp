@@ -921,7 +921,7 @@ void Funkcja4(vector <int> &word, SDL_Color PaletaD[]) {
         case 1:{
 		for(int i = 0; i < width/2; i++){
 			for(int j = 0; j < height/2; j++){
-				int index=0;https://pastebin.com/G1hhd7yx
+				int index=0;
 				pixel1 = getPixel(i, j);
 				pixel2 = findColor(PaletaD, pixel1,index);
 				word.push_back(index);
