@@ -18,3 +18,4 @@ Dopóki w tekście są jakieś trójki, czytamy je, znajdujemy pierwszy wyraz da
 
 # Projekt był projektem grupowym!
 Created by: Paweł/Mikołaj/Marek/Kamil
+# W całość programu w folderze zip umieszczonym w tym repozytorium!
