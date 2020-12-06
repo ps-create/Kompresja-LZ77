@@ -1,4 +1,4 @@
-# Projekt-Grafika-GKIM-2020-Zespol11
+# Kompresja LZ77
 całość programu w folderze zip umieszczonym w tym repozytorium!
 
 # Treść zadania:
@@ -16,6 +16,3 @@ Jeżeli zadany symbol nie zostanie znaleziony w buforze, jest wypisywany jako tr
 Stopień kompresji jest zależny od wielkości buforów, głównie słownikowego, jednak zwiększenie jego rozmiaru znacznie wydłuża czas kompresji.
 Żeby dekompresja się powiodła, rozmiary obu buforów muszą być takie same jak przy kompresji. Pierwszy symbol jest wczytywany z tekstu, wypełniamy nim bufor słownikowy i wypisujemy go na wyjście.
 Dopóki w tekście są jakieś trójki, czytamy je, znajdujemy pierwszy wyraz danego ciągu w buforze słownikowym a następnie czytamy C kolejnych znaków. Przeczytany ciąg uzupełniamy o symbol S i zapisujemy do bufora wejściowego oraz na wyjście. Następnie przesuwamy okno o C+1, czyli dopóki bufor wejściowy nie będzie pusty. To powoduje automatyczne odtworzenie słownika.
-
-# Projekt był projektem grupowym!
-Created by: Paweł/Mikołaj/Marek/Kamil
