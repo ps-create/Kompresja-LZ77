@@ -1,7 +1,7 @@
 # Kompresja LZ77
 całość programu w folderze zip umieszczonym w tym repozytorium!
 
-# Treść zadania:
+# Wykonywane zadanie:
 Należy utworzyć specyfikację rastrowego pliku graficznego rejestrującego obraz kolorowy (z wykorzystaniem 16 narzuconych oraz 16 dedykowanych barw) i w 16 stopniowej skali szarości we wszystkich przypadkach opierającego się na kompresji LZ77 ​ (Lempel-Ziv 77) ​ . Alfabet wejściowy to wartość 4 bitowa. 
 Należy napisać aplikacje, które zgodnie ze stworzoną specyfikacją dokonają filtracji danych wejściowych (przystosowanie danych do alfabetu wejściowego) i konwersji z pliku BMP do nowego rodzaju pliku graficznego oraz z nowego rodzaju pliku do formatu BMP. Użytkownik powinien mieć możliwość m.in. wyboru jednego z trzech trybów barwnych (paleta narzucona, paleta dedykowana lub skala szarości). 
  Zaimplementować dithering przy użyciu algorytmu Floyda-Steinberga. 
